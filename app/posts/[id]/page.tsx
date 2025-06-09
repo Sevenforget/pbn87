@@ -17,7 +17,7 @@ export default async function PostPage({
 
   try {
     // 현재 프로젝트의 도메인 자동 감지
-    const communityUrl = "https://urbanlyric.com"; // 하드코딩된 도메인 (pbn-domains.json 기반)
+    const communityUrl = "https://cceventslive.com"; // 하드코딩된 도메인 (pbn-domains.json 기반)
 
     // API에서 게시물 데이터 가져오기
     const post = await fetchPostFromApi(communityUrl, postId);
